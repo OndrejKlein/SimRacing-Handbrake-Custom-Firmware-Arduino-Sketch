@@ -71,3 +71,7 @@ flowchart LR
 ```
 
 Use the voltage required by your sensor and board; do not exceed the board's permitted analog-input voltage. Confirm the pinout for your specific handbrake PCB revision before wiring. The optional buttons connect between digital pins **2** and **3** respectively and **GND**; the sketch configures them with `INPUT_PULLUP`, so a pressed button reads LOW.
+
+## Licenses
+
+The Arduino firmware is licensed under [Apache License 2.0](LICENSE). The [3D models](3DModels/) are licensed separately under [Creative Commons Attribution 4.0 International (CC BY 4.0)](3DModels/LICENSE.md). Please credit the model creator and link to this repository when sharing or adapting the STL files.
